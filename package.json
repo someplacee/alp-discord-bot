@@ -1,0 +1,30 @@
+{
+  "name": "alp-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/someplacee/alp-discord-bot.git"
+  },
+  "keywords": [
+    "GIT",
+    "Discord",
+    "Bot",
+    "Heroku"
+  ],
+  "author": "Christian Brendlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/someplacee/alp-discord-bot/issues"
+  },
+  "homepage": "https://github.com/someplacee/alp-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
